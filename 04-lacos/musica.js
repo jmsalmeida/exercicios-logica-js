@@ -17,3 +17,13 @@
  */
 
  let numero = 250;
+
+ for(let i = numero; i >= 1; i--){
+    let km = 'kilometros';
+    if (i != 1){
+        console.log(`${i} ${km}! ${i} ${km}!\nPare um pouquinho, descanse um pouquinho...\n${i} ${km}! \n`);
+    } else {
+        km = 'kilometro';
+        console.log(`${i} ${km}! ${i} ${km}!\nPare um pouquinho, descanse um pouquinho...\n${i} ${km}! \n`);
+    }
+ }
